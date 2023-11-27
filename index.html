@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarpinis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app/css/style.css">
+</head>
+
+<body>
+    <h1>Ar žinai, kad ... </h1>
+
+    <div class="content">
+        <div class="buttons">
+            <button onclick="changeTab('pirmas', event)"><i class="fa-solid fa-car"></i></button>
+            <button onclick="changeTab('antras', event)"><i class="fa-solid fa-brain"></i></button>
+            <button onclick="changeTab('trecias', event)"><i class="fa-solid fa-text-width"></i></button>
+        </div>
+
+        <div class="tabs">
+            <div id="pirmas" class="tab">
+                <h2>Ar žinai, kokios spavos buvo pirmasis T FORD modelis? </h2>
+                <p>1914 m. Ford pagamino 308 automobilius, tai 162 automobiliais daugiau nei visi kiti automobilių gamintojai kartu paėmus. Taip pat 1914 m. modelio T, siekiant supaprastinti gamybą, nebebuvo galima įsigyti raudonos, mėlynos, žalios ar pilkos spalvos. Ji buvo prieinama „bet kokios spalvos, tol kol ta spalva yra juoda“. 
+                    <img src="https://images.unsplash.com/photo-1526283892969-da89060cece4?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ford"></p>
+               
+            </div>
+            <div id="antras" class="tab">
+                <h2>Ar žinai, smegenys nuolat valgo save?</h2>
+                <p>Jūsų smegenys nuolat valgo save. Šis procesas vadinamas fagocitoze, kai ląstelės apgaubia ir sunaudoja mažesnes ląsteles ar molekules, kad pašalintų jas iš sistemos. Nesijaudink! Fagocitozė nėra kenksminga, bet iš tikrųjų padeda išsaugoti pilkąją medžiagą. <img src="https://images.unsplash.com/photo-1644648479153-2a3dbee76212?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="brain"></p>
+                 
+            </div>
+            <div id="trecias" class="tab">
+                <h2>Ar žinai, kaip vadinama ilgų žodžių baimė?</h2>
+                <p>Ilgų žodžių baimė vadinama Hippopotomonstrosesquippedaliophobia. 36 raidžių žodį pirmą kartą panaudojo romėnų poetas Horacijus pirmajame amžiuje prieš Kristų, kad kritikuotų tuos rašytojus, kurie nepagrįstai mėgsta ilgus žodžius. Tai buvo amerikiečių poetė Aimee Nezheukumatathil, galbūt bijodama savo pavardės, 2000 m..<img src="https://images.unsplash.com/photo-1541854615901-93c354197834?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="text"></p>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

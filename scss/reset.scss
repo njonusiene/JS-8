@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to right, $green, $lightblue);
+    color: $darkblue;
+    font-family: Lato;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    padding: 30px;
+  }

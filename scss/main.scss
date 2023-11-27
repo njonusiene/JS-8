@@ -1,0 +1,69 @@
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+    line-height: 2em;
+  }
+  
+  button {
+    background-color: $darkblue;
+    color: $green;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    margin: 25px 0;
+    line-height: 2em;
+    border-radius: 15px;
+    border: 3px solid $lightblue;
+    box-shadow: 0 3px 3px 0 $darkblue;
+    transition: 0.5s;
+  }
+
+  button:hover{
+    cursor: grab;
+    background-color: $green;
+    color: $darkblue;
+  }
+
+  .buttons{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tabs{
+    padding-left: 170px;
+    height: 250px;
+  }
+
+i{
+  font-size: 30px;
+}
+
+  p {
+    float: right;
+    border: 4px solid $darkblue;
+    padding: 5px;
+    border-left: none;
+    box-shadow: 3px 3px 0 $lightblue;
+  }
+
+  p:hover{
+    background: linear-gradient(to left, $lightblue, $darkblue);
+    color: $green;
+    border-radius: 15px;
+  }
+  
+  h2{
+    padding:15px 0;
+    text-decoration:underline $lightblue;
+  }
+
+  img{
+    width: 250px;
+    float: right;
+    padding-right: 20px;
+    border-radius:40%;
+  }
